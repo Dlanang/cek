@@ -1,0 +1,52 @@
+# Generic ignores
+.DS_Store
+.env
+.env.*
+!.env.example
+.vscode/
+*.log
+*.bak
+*.swp
+*.swo
+
+# Python ignores
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+virtualenv/
+virtual-env/
+virtualenv-2.7/
+virtualenv-3.5/
+virtualenv-3.6/
+virtualenv-3.7/
+virtualenv-3.8/
+virtualenv-3.9/
+virtualenv-3.10/
+virtualenv-3.11/
+virtualenv-3.12/
+virtualenv-3.13/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Node.js ignores
+node_modules/
+package-lock.json
+yarn.lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+frontend/dist/
+
+# Installer script
+installer.sh
+
+# Server backup
+serverbackup.zip
+README-RESTORE.md
+restore.sh
